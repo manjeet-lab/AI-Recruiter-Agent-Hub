@@ -1,0 +1,34 @@
+{
+  "recommended_skills": ["Triton", "TensorRT-LLM", "AWS SageMaker", "vLLM"],
+  "recommended_courses": [
+    {
+      "title": "GPU Programming with CUDA",
+      "provider": "NVIDIA",
+      "reason": "Deepen low-level hardware acceleration capabilities for next-generation custom kernels."
+    },
+    {
+      "title": "Large Language Models in Production",
+      "provider": "DeepLearning.AI",
+      "reason": "Stay updated on the latest serving and orchestration frameworks like vLLM and TensorRT-LLM."
+    }
+  ],
+  "recommended_certifications": [
+    "AWS Certified Solutions Architect – Associate",
+    "NVIDIA Certified Associate - CUDA"
+  ],
+  "recommended_projects": [
+    "Multi-modal Agent Framework: Build an agentic system that runs locally using WebGPU for image and text understanding.",
+    "Custom Triton Kernel for KV-Cache Optimization: Write a high-performance Triton kernel to speed up attention mechanisms."
+  ],
+  "interview_preparation": [
+    "Focus on system design questions related to distributed training at scale (data/tensor/pipeline parallelism).",
+    "Be prepared to explain memory complexity of attention mechanisms and KV cache optimizations in detail.",
+    "Prepare behavioral examples demonstrating leadership, conflict resolution, and technical mentorship."
+  ],
+  "career_roadmap": {
+    "week_1": "Complete NVIDIA Triton / vLLM advanced configuration guide and benchmark local serving performance.",
+    "week_2": "Draft design document for the multi-modal WebGPU agent and initialize the project skeleton in Rust.",
+    "week_3": "Optimize KV-cache management in the project and run memory profiling using CUDA tools.",
+    "week_4": "Update resume with quantified business metrics and practice mock senior system design interviews."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "Full Name": "Sarah Chen",
+  "Email": "sarah.chen@example.com",
+  "Phone Number": "+1-555-0199",
+  "Skills": ["Python", "PyTorch", "TensorFlow", "JAX", "Kubernetes", "NLP", "LLMs", "RLHF"],
+  "Education": [
+    {
+      "degree": "M.S. in Computer Science",
+      "institution": "Stanford University",
+      "graduation_year": "2022",
+      "field_of_study": "Artificial Intelligence"
+    },
+    {
+      "degree": "B.S. in Mathematics & Computer Science",
+      "institution": "University of California, Berkeley",
+      "graduation_year": "2020",
+      "field_of_study": "Applied Mathematics"
+    }
+  ],
+  "Work Experience": [
+    {
+      "job_title": "Lead Machine Learning Engineer",
+      "company": "DeepMind (Google)",
+      "start_date": "Jan 2022",
+      "end_date": "Present",
+      "description": [
+        "Led a team of 6 ML engineers to design and deploy a production-scale LLM inference pipeline serving 50M+ daily requests.",
+        "Reduced model latency by 38% through mixed-precision quantisation and kernel fusion techniques.",
+        "Architected a multi-GPU distributed training framework using JAX, cutting training time from 14 days to 4 days.",
+        "Mentored 3 junior engineers and established quarterly internal research presentations."
+      ]
+    },
+    {
+      "job_title": "Machine Learning Engineer Intern",
+      "company": "OpenAI",
+      "start_date": "Jun 2021",
+      "end_date": "Dec 2021",
+      "description": [
+        "Implemented RLHF fine-tuning pipelines for GPT-3 variants, improving alignment scores by 22%.",
+        "Contributed to internal evaluation harness used across 4 research teams."
+      ]
+    }
+  ],
+  "Projects": [
+    {
+      "title": "LocalLLM WebGPU",
+      "description": "Browser-based LLM acceleration engine running 7B-parameter models entirely client-side using WebGPU compute shaders.",
+      "technologies": ["Rust", "WebGPU", "WASM", "TypeScript"],
+      "url": "https://github.com/sarahchen/localllm-webgpu"
+    },
+    {
+      "title": "DistributedGrad",
+      "description": "An open-source library for gradient compression in distributed deep learning, reducing communication overhead by 60%.",
+      "technologies": ["Python", "PyTorch", "NCCL", "MPI"],
+      "url": "https://github.com/sarahchen/distributedgrad"
+    }
+  ],
+  "Certifications": [
+    "Google Cloud Professional Machine Learning Engineer",
+    "NVIDIA Deep Learning Institute — Accelerated Computing"
+  ],
+  "Technical Skills": ["Python", "PyTorch", "JAX", "TensorFlow", "Rust", "CUDA", "Kubernetes", "Docker", "Ray", "Triton"],
+  "Soft Skills": ["Technical Leadership", "Mentorship", "Cross-functional Collaboration", "Public Speaking", "Research Communication"],
+  "Languages": ["English", "Mandarin (Native)"],
+  "GitHub URL": "https://github.com/sarahchen",
+  "LinkedIn URL": "https://linkedin.com/in/sarahchen"
+}

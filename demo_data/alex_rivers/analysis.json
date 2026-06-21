@@ -1,0 +1,44 @@
+{
+  "Full Name": "Alex Rivers",
+  "Email": "alex.rivers@example.com",
+  "Phone Number": "+1-555-0144",
+  "Skills": ["JavaScript", "TypeScript", "React.js", "Node.js", "Express", "SQL", "MongoDB", "AWS Lambda", "Terraform", "Git", "Jest"],
+  "Education": [
+    {
+      "degree": "B.S. in Computer Science",
+      "institution": "University of Texas at Austin",
+      "graduation_year": "2020",
+      "field_of_study": "Software Engineering"
+    }
+  ],
+  "Work Experience": [
+    {
+      "job_title": "Software Engineer II",
+      "company": "WebSystems Inc.",
+      "start_date": "Jan 2021",
+      "end_date": "Present",
+      "description": [
+        "Maintained and optimized full-stack web modules using React and Node.js, improving page load speed by 15%.",
+        "Refactored legacy REST APIs to serverless microservices on AWS Lambda, saving 25% in infrastructure costs.",
+        "Optimised relational database queries, reducing average API response times by 120ms.",
+        "Participated in agile ceremonies, performed peer code reviews, and contributed to developer documentation."
+      ]
+    }
+  ],
+  "Projects": [
+    {
+      "title": "Monolith Serverless",
+      "description": "Refactored legacy monolith modules to serverless microservices using AWS Lambda and Terraform.",
+      "technologies": ["Node.js", "AWS Lambda", "Terraform", "API Gateway"],
+      "url": "https://github.com/alexrivers/monolith-serverless"
+    }
+  ],
+  "Certifications": [
+    "AWS Certified Developer - Associate"
+  ],
+  "Technical Skills": ["JavaScript", "TypeScript", "React.js", "Node.js", "Express", "PostgreSQL", "MongoDB", "Docker", "AWS (Lambda, S3, RDS)", "Terraform", "Jest"],
+  "Soft Skills": ["Agile Execution", "Peer Reviewing", "Technical Documentation", "Problem Solving"],
+  "Languages": ["English (Native)"],
+  "GitHub URL": "https://github.com/alexrivers",
+  "LinkedIn URL": "https://linkedin.com/in/alexrivers"
+}

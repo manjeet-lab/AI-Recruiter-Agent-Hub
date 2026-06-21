@@ -1,0 +1,26 @@
+{
+  "overall_recruiter_score": 94,
+  "ats_score": 91,
+  "hiring_decision": "Hire",
+  "confidence_score": 95,
+  "category_scores": {
+    "technical_skills": 96,
+    "projects": 93,
+    "experience": 95,
+    "communication": 90,
+    "education": 95
+  },
+  "recruiter_summary": "Sarah Chen is an exceptional Senior AI Engineer with a strong academic background from Stanford and UC Berkeley. She has proven experience leading ML engineering teams and deploying production-scale LLM pipelines at DeepMind and OpenAI. Her technical depth in PyTorch, JAX, and Rust is highly impressive, complemented by high-impact projects like LocalLLM WebGPU.",
+  "recruiter_reasoning": [
+    "Extensive experience deploying large-scale LLM inference pipelines with significant latency reductions (38%).",
+    "Prior experience at tier-1 AI labs including DeepMind and OpenAI.",
+    "Outstanding technical skills spanning PyTorch, JAX, Rust, CUDA, and Kubernetes.",
+    "Strong academic credentials with an M.S. in Computer Science from Stanford University."
+  ],
+  "resume_highlights": [
+    "Led ML team at DeepMind and optimized pipelines serving 50M+ daily requests.",
+    "M.S. in CS from Stanford University (AI Track).",
+    "Created highly popular open-source projects like LocalLLM WebGPU (Rust/WebGPU)."
+  ],
+  "red_flags": []
+}

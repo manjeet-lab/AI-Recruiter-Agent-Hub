@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0a0f" />
+      <stop offset="100%" stop-color="#18141f" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="roseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6" />
+      <stop offset="100%" stop-color="#db2777" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+
+    <!-- Arrow Markers -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#a78bfa" />
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#34d399" />
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#60a5fa" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="700" fill="url(#bgGrad)" />
+  <rect width="800" height="700" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="2" />
+
+  <!-- Grid lines (subtle decoration) -->
+  <path d="M 0 100 H 800 M 0 200 H 800 M 0 300 H 800 M 0 400 H 800 M 0 500 H 800 M 0 600 H 800" stroke="rgba(255,255,255,0.02)" stroke-width="1" />
+  <path d="M 100 0 V 700 M 200 0 V 700 M 300 0 V 700 M 400 0 V 700 M 500 0 V 700 V 700 M 600 0 V 700 M 700 0 V 700" stroke="rgba(255,255,255,0.02)" stroke-width="1" />
+
+  <!-- Title -->
+  <text x="400" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="1">AI RECRUITER AGENT HUB</text>
+  <text x="400" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="500" fill="#9ca3af" text-anchor="middle">System Architecture &amp; Execution Pipeline</text>
+
+  <!-- Nodes -->
+  <!-- User -->
+  <g transform="translate(300, 90)" filter="url(#shadow)">
+    <rect width="200" height="50" rx="8" fill="#1f2937" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" />
+    <text x="100" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">👤 User / Recruiter</text>
+  </g>
+
+  <!-- Streamlit Frontend -->
+  <g transform="translate(275, 175)" filter="url(#shadow)">
+    <rect width="250" height="60" rx="10" fill="url(#purpleGrad)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" />
+    <text x="125" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#fff" text-anchor="middle">💻 Streamlit Frontend</text>
+    <text x="125" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="500" fill="#e9d5ff" text-anchor="middle">app.py</text>
+  </g>
+
+  <!-- Instant Demo (Left Branch) -->
+  <g transform="translate(80, 275)" filter="url(#shadow)">
+    <rect width="200" height="60" rx="8" fill="#064e3b" stroke="#34d399" stroke-width="1.5" />
+    <text x="100" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#34d399" text-anchor="middle">⚡ Instant Demo Mode</text>
+    <text x="100" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="500" fill="#a7f3d0" text-anchor="middle">(Offline Local JSON files)</text>
+  </g>
+
+  <!-- Upload Resume (Right Branch) -->
+  <g transform="translate(520, 275)" filter="url(#shadow)">
+    <rect width="200" height="60" rx="8" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" />
+    <text x="100" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#60a5fa" text-anchor="middle">📤 Upload Resume Mode</text>
+    <text x="100" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="500" fill="#bfdbfe" text-anchor="middle">(Real-time AI Pipeline)</text>
+  </g>
+
+  <!-- Google ADK Orchestrator -->
+  <g transform="translate(485, 375)" filter="url(#shadow)">
+    <rect width="270" height="70" rx="10" fill="#451a03" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="3,3" />
+    <text x="135" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" fill="#fbbf24" text-anchor="middle">🤖 Google ADK Orchestrator</text>
+    <text x="135" y="50" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="500" fill="#fef3c7" text-anchor="middle">orchestrator_agent.py</text>
+  </g>
+
+  <!-- Sub-agents Box -->
+  <g transform="translate(485, 475)">
+    <!-- Container -->
+    <rect width="270" height="135" rx="8" fill="rgba(31,41,55,0.4)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+    <text x="135" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#9ca3af" text-anchor="middle" letter-spacing="1">SPECIALIST AGENTS</text>
+
+    <!-- Agent 1 -->
+    <rect x="15" y="30" width="115" height="40" rx="4" fill="#1f2937" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+    <text x="72.5" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#e5e7eb" text-anchor="middle">1. Resume Analysis</text>
+
+    <!-- Agent 2 -->
+    <rect x="140" y="30" width="115" height="40" rx="4" fill="#1f2937" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+    <text x="197.5" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#e5e7eb" text-anchor="middle">2. Recruiter Scoring</text>
+
+    <!-- Agent 3 -->
+    <rect x="15" y="80" width="115" height="40" rx="4" fill="#1f2937" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+    <text x="72.5" y="104" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#e5e7eb" text-anchor="middle">3. Feedback Agent</text>
+
+    <!-- Agent 4 -->
+    <rect x="140" y="80" width="115" height="40" rx="4" fill="#1f2937" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+    <text x="197.5" y="104" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#e5e7eb" text-anchor="middle">4. Recommendation</text>
+  </g>
+
+  <!-- MCP Block -->
+  <!-- MCP Client -->
+  <g transform="translate(230, 480)" filter="url(#shadow)">
+    <rect width="180" height="50" rx="8" fill="#065f46" stroke="#34d399" stroke-width="1.2" />
+    <text x="90" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#34d399" text-anchor="middle">🔌 MCP Client</text>
+    <text x="90" y="40" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="500" fill="#a7f3d0" text-anchor="middle">mcp_client.py (stdio)</text>
+  </g>
+
+  <!-- MCP Server -->
+  <g transform="translate(230, 560)" filter="url(#shadow)">
+    <rect width="180" height="50" rx="8" fill="#065f46" stroke="#34d399" stroke-width="1.2" />
+    <text x="90" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#34d399" text-anchor="middle">📦 MCP Filesystem Server</text>
+    <text x="90" y="40" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="500" fill="#a7f3d0" text-anchor="middle">filesystem_server.py</text>
+  </g>
+
+  <!-- Storage / Folders -->
+  <g transform="translate(230, 635)">
+    <rect width="180" height="35" rx="6" fill="#111827" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+    <text x="90" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#9ca3af" text-anchor="middle">📂 uploads/ &amp; reports/</text>
+  </g>
+
+  <!-- Shared Dashboard -->
+  <g transform="translate(40, 485)" filter="url(#shadow)">
+    <rect width="150" height="120" rx="10" fill="url(#roseGrad)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5" />
+    <text x="75" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">📊 Shared Dashboard</text>
+    <text x="75" y="55" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#fbcfe8" text-anchor="middle">• Scoring &amp; ATS</text>
+    <text x="75" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#fbcfe8" text-anchor="middle">• Detailed Feedback</text>
+    <text x="75" y="85" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#fbcfe8" text-anchor="middle">• Growth Plan</text>
+    <text x="75" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#fbcfe8" text-anchor="middle">• 30-Day Roadmap</text>
+  </g>
+
+  <!-- Connections / Arrows -->
+  <!-- User to Streamlit -->
+  <line x1="400" y1="140" x2="400" y2="170" stroke="#a78bfa" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Streamlit to Demo (Left) -->
+  <path d="M 320 235 L 320 250 L 180 250 L 180 270" fill="none" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-green)" />
+
+  <!-- Streamlit to Upload (Right) -->
+  <path d="M 480 235 L 480 250 L 620 250 L 620 270" fill="none" stroke="#60a5fa" stroke-width="2" marker-end="url(#arrow-blue)" />
+
+  <!-- Upload to Orchestrator -->
+  <line x1="620" y1="335" x2="620" y2="370" stroke="#60a5fa" stroke-width="2" marker-end="url(#arrow-blue)" />
+
+  <!-- Orchestrator to Agents -->
+  <line x1="620" y1="445" x2="620" y2="470" stroke="#fbbf24" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Orchestrator to MCP Client -->
+  <path d="M 620 445 H 320 V 475" fill="none" stroke="#34d399" stroke-width="1.5" stroke-dasharray="3,3" marker-end="url(#arrow-green)" />
+
+  <!-- MCP Client to Server -->
+  <line x1="320" y1="530" x2="320" y2="555" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-green)" />
+
+  <!-- MCP Server to Storage -->
+  <line x1="320" y1="610" x2="320" y2="630" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-green)" />
+
+  <!-- Demo to Shared Dashboard -->
+  <line x1="130" y1="335" x2="130" y2="480" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-green)" />
+
+  <!-- MCP client/Server to Shared Dashboard (reporting results back to UI) -->
+  <path d="M 230 505 H 195" fill="none" stroke="#e5e7eb" stroke-width="1.5" marker-end="url(#arrow)" />
+
+  <!-- Agents evaluation back to Shared Dashboard (via Orchestrator) -->
+  <path d="M 485 542.5 H 410 V 505 H 195" fill="none" stroke="#e5e7eb" stroke-width="1.5" marker-end="url(#arrow)" />
+</svg>

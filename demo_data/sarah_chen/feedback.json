@@ -1,0 +1,27 @@
+{
+  "strengths": [
+    "Strong pedigree with experience at top-tier research labs (DeepMind, OpenAI).",
+    "High-impact achievements, such as reducing inference latency by 38% for 50M+ users.",
+    "Excellent portfolio of open-source contributions including DistributedGrad and LocalLLM WebGPU.",
+    "Solid educational foundation with degrees from Stanford and UC Berkeley."
+  ],
+  "weaknesses": [
+    "Relatively short tenure in individual roles, though typical for high-growth tech careers.",
+    "Limited direct exposure to traditional enterprise cloud environments (e.g., AWS, Azure) in favor of deep research infrastructure."
+  ],
+  "recruiter_comments": [
+    "Sarah is a top-tier talent. She possesses a rare combination of deep ML research capability and robust systems engineering skills.",
+    "Highly recommended for a Senior/Lead AI Engineer or AI Architect role.",
+    "Expect multiple competitive offers; move fast in the interview pipeline."
+  ],
+  "resume_improvement_suggestions": [
+    "Explicitly quantify the financial or business impact of the 38% latency reduction at DeepMind.",
+    "Add more details regarding the scale of model parameters (e.g., 70B+) handled in the RLHF pipelines.",
+    "Highlight any publication records or conference contributions (e.g., NeurIPS, ICML) if applicable."
+  ],
+  "priority_improvements": [
+    "Quantify business and cost-saving metrics of ML infrastructure optimizations.",
+    "Add publication or patent details to showcase research authority.",
+    "Broaden cloud certification profile to include AWS or Azure architectures if targeting enterprise roles."
+  ]
+}

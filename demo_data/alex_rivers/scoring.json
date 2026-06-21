@@ -1,0 +1,29 @@
+{
+  "overall_recruiter_score": 78,
+  "ats_score": 82,
+  "hiring_decision": "Maybe Hire",
+  "confidence_score": 88,
+  "category_scores": {
+    "technical_skills": 79,
+    "projects": 72,
+    "experience": 77,
+    "communication": 80,
+    "education": 82
+  },
+  "recruiter_summary": "Alex Rivers is a competent Backend Developer with solid full-stack JavaScript and TypeScript capabilities. He has a degree from UT Austin and valuable hands-on experience at WebSystems, where he successfully completed cloud migrations and API optimizations. While his core engineering practices are sound, his portfolio is relatively sparse, and he would benefit from showcasing more diverse projects.",
+  "recruiter_reasoning": [
+    "Solid educational foundation with a B.S. in CS from UT Austin.",
+    "Proven capability in full-stack JS/TS development and database optimization.",
+    "Demonstrated experience with AWS serverless migrations saving 25% costs.",
+    "Needs more depth in advanced system design and a richer project portfolio."
+  ],
+  "resume_highlights": [
+    "Successfully reduced infrastructure costs by 25% via serverless migration.",
+    "B.S. in CS from University of Texas at Austin.",
+    "Active AWS Certified Developer certification."
+  ],
+  "red_flags": [
+    "Only one major professional role listed since graduation.",
+    "Limited diversity in personal/open-source projects."
+  ]
+}

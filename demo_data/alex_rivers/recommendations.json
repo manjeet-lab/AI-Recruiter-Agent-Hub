@@ -1,0 +1,34 @@
+{
+  "recommended_skills": ["Next.js", "NestJS", "Kubernetes", "GraphQL", "Redis"],
+  "recommended_courses": [
+    {
+      "title": "AWS Certified Solutions Architect - Associate",
+      "provider": "Udemy / Adrian Cantrill",
+      "reason": "Expand knowledge from developer tools to broader cloud architecture and system design patterns."
+    },
+    {
+      "title": "NestJS Progressive Course",
+      "provider": "NestJS Academy",
+      "reason": "Learn structured, enterprise-grade backend development patterns using TypeScript."
+    }
+  ],
+  "recommended_certifications": [
+    "AWS Certified Solutions Architect – Associate",
+    "HashiCorp Certified: Terraform Associate"
+  ],
+  "recommended_projects": [
+    "Real-time Collaboration Platform: Build a full-stack Next.js app using WebSocket/Socket.io, NestJS, and Redis caching.",
+    "Multi-tenant API Gateway: Develop a custom reverse-proxy API gateway with rate limiting and JWT auth using NestJS."
+  ],
+  "interview_preparation": [
+    "Practice system design concepts like load balancing, caching strategies, and database indexing/sharding.",
+    "Review JavaScript/TypeScript event loop mechanics and concurrency patterns.",
+    "Prepare answers around serverless pros/cons and when to use containers instead of Lambda."
+  ],
+  "career_roadmap": {
+    "week_1": "Start the AWS Solutions Architect course and set up local NestJS template repository.",
+    "week_2": "Implement WebSocket real-time communication inside the Next.js/NestJS project.",
+    "week_3": "Integrate Redis caching and deploy the project using Terraform on AWS ECS.",
+    "week_4": "Refactor resume to include the new real-time project and prepare for mid-level system design queries."
+  }
+}
