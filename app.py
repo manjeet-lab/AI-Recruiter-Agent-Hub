@@ -1130,7 +1130,7 @@ else:
                             </h3>
                             <p style="color:#e5e7eb;font-size:0.95rem;line-height:1.6;">
                                 The Gemini API returned a <code>RESOURCE_EXHAUSTED</code> error.
-                                Free-tier keys allow <strong>500 requests per day</strong>.
+                                Free-tier keys allow <strong>20 requests per day</strong>.
                                 One pipeline run consumes 4 requests (one per agent stage).
                             </p>
                             <details style="margin-bottom:1rem;">
