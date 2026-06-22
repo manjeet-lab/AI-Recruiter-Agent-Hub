@@ -22,3 +22,6 @@ pydantic>=2.7.0
 
 # Model Context Protocol (MCP) — Filesystem Server + Client
 mcp>=1.0.0
+
+# Enables loading environment variables from a .env file.
+python-dotenv
