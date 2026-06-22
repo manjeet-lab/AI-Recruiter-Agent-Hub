@@ -840,8 +840,7 @@ with st.sidebar:
 
     st.markdown("---")
     st.markdown("### 🤖 AI Recruiter Agent")
-    st.caption("Powered by Google Gemini & Google ADK · v1.0")
-
+    st.caption("Powered by AI Recruiter Agent · v1.0")
 
 # ---------------------------------------------------------------------------
 # Header Banner
