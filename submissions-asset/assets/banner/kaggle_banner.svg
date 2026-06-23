@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F0C20" />
+      <stop offset="100%" stop-color="#05040B" />
+    </linearGradient>
+    
+    <!-- Button Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    
+    <!-- Badge Border Gradient -->
+    <linearGradient id="badgeBorderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    
+    <!-- Glow Filters -->
+    <filter id="purpleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="blueGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="25" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <!-- Arrow Marker -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 7 5 L 0 8.5 z" fill="#7C3AED" />
+    </marker>
+  </defs>
+
+  <!-- Base Background -->
+  <rect width="560" height="280" fill="url(#bgGrad)" />
+  
+  <!-- Glowing Background Auras -->
+  <!-- Top-left purple glow -->
+  <circle cx="50" cy="50" r="100" fill="#7C3AED" opacity="0.12" filter="url(#purpleGlow)" />
+  <!-- Bottom-right blue glow -->
+  <circle cx="510" cy="230" r="80" fill="#2563EB" opacity="0.1" filter="url(#blueGlow)" />
+
+  <!-- Symmetrical background design grids -->
+  <path d="M 0 40 H 560 M 0 240 H 560" stroke="rgba(255,255,255,0.015)" stroke-width="1" />
+  <path d="M 80 0 V 280 M 480 0 V 280" stroke="rgba(255,255,255,0.015)" stroke-width="1" />
+
+  <!-- Main Headers -->
+  <text x="280" y="60" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">AI Recruiter Agent Hub</text>
+  <text x="280" y="82" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#A78BFA" text-anchor="middle" letter-spacing="1">KAGGLE AI AGENTS CAPSTONE</text>
+
+  <!-- Workflow Pipeline Boxes (Centered spacing) -->
+  <!-- Step 1: Resume Parser -->
+  <g transform="translate(32, 125)">
+    <rect width="82" height="32" rx="6" fill="rgba(25, 20, 45, 0.7)" stroke="url(#borderGrad)" stroke-width="1" />
+    <text x="41" y="20" font-family="'Segoe UI', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#F3F4F6" text-anchor="middle">📄 Resume Parser</text>
+  </g>
+  <line x1="119" y1="141" x2="131" y2="141" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Step 2: Analysis -->
+  <g transform="translate(136, 125)">
+    <rect width="72" height="32" rx="6" fill="rgba(25, 20, 45, 0.7)" stroke="url(#borderGrad)" stroke-width="1" />
+    <text x="36" y="20" font-family="'Segoe UI', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#F3F4F6" text-anchor="middle">🔍 Analysis</text>
+  </g>
+  <line x1="213" y1="141" x2="225" y2="141" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Step 3: Scoring -->
+  <g transform="translate(230, 125)">
+    <rect width="72" height="32" rx="6" fill="rgba(25, 20, 45, 0.7)" stroke="url(#borderGrad)" stroke-width="1" />
+    <text x="36" y="20" font-family="'Segoe UI', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#F3F4F6" text-anchor="middle">📊 Scoring</text>
+  </g>
+  <line x1="307" y1="141" x2="319" y2="141" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Step 4: Feedback -->
+  <g transform="translate(324, 125)">
+    <rect width="75" height="32" rx="6" fill="rgba(25, 20, 45, 0.7)" stroke="url(#borderGrad)" stroke-width="1" />
+    <text x="37.5" y="20" font-family="'Segoe UI', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#F3F4F6" text-anchor="middle">💬 Feedback</text>
+  </g>
+  <line x1="404" y1="141" x2="416" y2="141" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Step 5: Recommendations -->
+  <g transform="translate(421, 125)">
+    <rect width="107" height="32" rx="6" fill="rgba(25, 20, 45, 0.7)" stroke="url(#borderGrad)" stroke-width="1" />
+    <text x="53.5" y="20" font-family="'Segoe UI', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#F3F4F6" text-anchor="middle">🚀 Recommendations</text>
+  </g>
+
+  <!-- Technology Badge Pills at the bottom -->
+  <!-- Google ADK -->
+  <g transform="translate(28, 205)">
+    <rect width="100" height="24" rx="12" fill="rgba(30, 27, 75, 0.5)" stroke="#3B82F6" stroke-width="1.2" />
+    <text x="50" y="16" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#BFDBFE" text-anchor="middle">Google ADK</text>
+  </g>
+
+  <!-- Gemini -->
+  <g transform="translate(156, 205)">
+    <rect width="90" height="24" rx="12" fill="rgba(30, 27, 75, 0.5)" stroke="#3B82F6" stroke-width="1.2" />
+    <text x="45" y="16" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#BFDBFE" text-anchor="middle">Gemini</text>
+  </g>
+
+  <!-- Filesystem MCP -->
+  <g transform="translate(274, 205)">
+    <rect width="130" height="24" rx="12" fill="rgba(30, 27, 75, 0.5)" stroke="#3B82F6" stroke-width="1.2" />
+    <text x="65" y="16" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#BFDBFE" text-anchor="middle">Filesystem MCP</text>
+  </g>
+
+  <!-- Streamlit -->
+  <g transform="translate(432, 205)">
+    <rect width="100" height="24" rx="12" fill="rgba(30, 27, 75, 0.5)" stroke="#3B82F6" stroke-width="1.2" />
+    <text x="50" y="16" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#BFDBFE" text-anchor="middle">Streamlit</text>
+  </g>
+</svg>
